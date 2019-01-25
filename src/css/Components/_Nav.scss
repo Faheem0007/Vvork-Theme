@@ -1,0 +1,59 @@
+
+.navi{
+    z-index: 999;
+    background-color: $main-color;
+    position: sticky;
+    top:0;
+    height:100px;
+
+    .gogo{
+        position: absolute;
+        height:100%;
+        width:60%;
+        right:0;
+        background-color: $main-color;
+        
+        li{
+            margin-top:20px;
+            a{
+                color:#fff !important;
+
+            }
+            &:active{
+                font-weight: bold;
+                background-color: none;
+            }
+        }
+
+        button{
+            margin-top:30px;
+        }
+    }
+
+    @media(max-width:767px){
+        .gogo{
+            width:100% !important;
+            position: relative;
+            display: none;
+            top:50px;
+            z-index: 9999;
+            height:auto !important;
+            background-color: #fff;
+            text-align: center;
+            
+            li{
+                display: block;
+                ul{
+                    background-color: #fff;
+                    text-align: center;
+                }
+
+            }
+
+            button{
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+}

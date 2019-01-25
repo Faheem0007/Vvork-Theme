@@ -1,0 +1,59 @@
+.MAIN{
+        margin:100px auto;
+        margin-bottom:50px;
+
+    
+    .content{
+        margin-bottom: 100px;
+        h2,h6{
+            text-align: center;
+        }
+    }
+
+
+    .div{
+        text-align: center;
+        width:100%;
+        border-bottom: 1px solid #eee;
+        border-right: 1px solid #eee;
+        transition: all .35s;
+        border-left: 1px solid #eee;
+        position: relative;
+
+
+        &:hover{
+            box-shadow: 1px 3px 5px lightgrey;
+            transition: all .35s;
+            z-index: 9;
+        }
+        i{
+            text-align: center;
+            font-size: 50px;
+            margin:10% 0 10% 0;
+            color:$main-color;
+        }
+
+        h2{
+            margin:2% 0 4% 0;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        p{
+            margin:7% 5% 9% 5%; 
+            color:grey;
+            
+        }
+
+        button{
+            @include btn('sm');
+            font-weight: bold;
+            margin:0% 0% 3% 0;
+
+            &:hover{
+                background-color: $second-color;
+                transition: all .35s;
+                box-shadow: 0px 1px 4px grey;
+            }
+        }
+    }
+}

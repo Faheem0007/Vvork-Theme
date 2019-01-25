@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lato');
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import "./veriables/Veriable";
+@import "./Mixins/btn";
+@import "./Components/Nav";
+@import "./Components/Main";
+@import "./Components/Enverment";
+@import "./Components/Review";
+@import "./Components/Involved";
+@import "./Components/Aim";
+@import "./Components/Team";
+@import "./Components/TeacherR";
+@import "./Components/Service";
+@import "./Components/Achivment";
+@import "./Components/Tabs";
+@import "./Components/Course";
+@import "./Components/Event";
+@import "./Components/Footer";
+@import "./Components/Process";
+@import "./Components/OUR";
+
+
+
+body{
+    margin:0px;
+    padding:0px;
+
+}
+
+.section{
+    height: 85vh;
+    padding-top:50px;
+    
+}

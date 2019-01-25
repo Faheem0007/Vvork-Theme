@@ -1,0 +1,65 @@
+.enverment{
+    margin:8vw auto;
+    .env-content{
+        h2{
+            text-align: center;
+            font-weight: bold;
+        }
+
+        p{
+            text-align: center;
+            margin-left:20%;
+            margin-right:20%;
+        }
+    }
+
+    .env-data{
+        margin-top:6vw;
+        width:90%;
+
+        
+        &:hover .icon{
+            box-shadow: 4px 4px 20px $main-color;
+            transition: .5s;
+        }
+        .icon{
+            border-radius: 50%;
+            width:100px;
+            height:100px;
+            background-color: #fff;
+            box-shadow: 2px 1px 3px lightgrey;
+            transition: .5s;
+            color:$main-color; 
+            margin:0 auto;
+            
+            &:hover{
+                box-shadow: 4px 4px 20px $main-color;
+                transition: .5s;
+            }
+            i{
+                font-size: 40px;
+                border-radius: 50%;
+                margin-top:1vw;
+                padding:25px;
+                padding-top:20px;
+                box-sizing: border-box;
+                text-align: center;
+
+            }
+        }
+        h3{
+            text-align: center;
+            margin-bottom: 1vw;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        p{
+            text-align: center;
+            margin-left:5%;
+            margin-right:5%;
+            letter-spacing: .5px;
+            font-weight: 400;
+        }
+    }
+}

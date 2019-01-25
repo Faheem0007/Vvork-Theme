@@ -1,0 +1,25 @@
+.container-fluid{
+    position: relative;
+    
+    .stick{
+        width:100%;
+        box-sizing: border-box;
+        height:50px !important;
+        background-color: #fff;
+        position: relative;
+        top:0;
+        left:0;
+        
+        i{
+            box-sizing: border-box;
+            margin:20px;
+            
+        }
+        
+        .btn{
+            margin:10px 20px 0;
+            box-sizing: border-box;
+        }
+    }
+    
+}

@@ -1,0 +1,184 @@
+.Tabs {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 100vh;
+    margin-top: 0px;
+
+
+    .line {
+        width: 4px;
+        height: 200px;
+        background-color: #AAB8C2;
+        margin-left: 150px;
+        top: 80px;
+        position: relative;
+
+        &:nth-of-type(3) {
+            height: 100px;
+        }
+
+        .circle-1,
+        .circle-2,
+        .circle-3,
+        .circle-4,
+        .circle-5,
+        .circle-6,
+        .circle-7,
+        .circle-8,
+        .active {
+            position: absolute;
+            cursor: pointer;
+            width: 25px;
+            height: 25px;
+            border-radius: 25px;
+            background-color: #fff;
+            border:1px solid #AAB8C2;
+            left: -11px;
+            top:0px;
+
+            .crline {
+                white-space: nowrap;
+                margin: -0px;
+                margin-left: 50px;
+                color: grey;
+            }
+
+        }
+
+        .active {
+            font-weight: bold;
+            background-color: #AAB8C2;
+            border:1px solid #fff;
+
+
+            .crline {
+                white-space: nowrap;
+                font-weight: bold;
+                color: #333333;
+            }
+        }
+
+        .circle-2,
+        .circle-5,
+        .circle-8 {
+            top: 80px;
+        }
+
+        .circle-3,
+        .circle-6 {
+            top: 130px
+        }
+    }
+
+
+    .tabs-div {
+        width: 40%;
+        height: auto;
+        position: absolute;
+        right: 10%;
+        top: 10%;
+        border:1px solid #AAB8C2;
+        background-color: rgb(255, 255, 255);
+
+        .tabs-content1,
+        .tabs-content2,
+        .tabs-content3,
+        .tabs-content4,
+        .tabs-content5,
+        .tabs-content6,
+        .tabs-content7,
+        .tabs-content8 {
+            position: relative;
+            width: 100%;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 50%;
+            }
+
+            p,
+            h2 {
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+        }
+    }
+
+    .querydiv {
+        display: none;
+    }
+
+
+}
+
+@media(max-width:1000px) {
+
+    .Tabs {
+        height: auto;
+        margin: 50px auto;
+
+        .line {
+            display: none;
+        }
+
+        .tabs-div {
+            display: none;
+        }
+
+        .querydiv {
+            width: 90%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            background-color: #eee;
+
+
+            .hding1,
+            .hding2,
+            .hding3,
+            .hding4,
+            .hding5,
+            .hding6,
+            .hding7,
+            .hding8 {
+                height: 80px;
+                width: 100%;
+                background-color: #fff;
+                border: 1px solid #eee;
+                position: relative;
+                box-sizing: border-box;
+                padding: 20px;
+                font-size: 25px;
+                margin-top: 40px;
+            }
+
+            .subKuch1,
+            .subKuch2,
+            .subKuch3,
+            .subKuch4,
+            .subKuch5,
+            .subKuch6,
+            .subKuch7,
+            .subKuch8 {
+                width: 100%;
+                height: 100%;
+                margin: 0 auto;
+                background-color: #fff;
+
+                .Div {
+                    width: 80%;
+                    margin: 0 auto;
+                    height: 100%;
+
+                    img {
+                        width: 100%;
+                        height: 50%;
+                    }
+                }
+            }
+        }
+
+    }
+}

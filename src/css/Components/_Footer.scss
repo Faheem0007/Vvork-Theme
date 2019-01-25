@@ -1,0 +1,114 @@
+.you{
+
+    
+    button{
+        height:65px;
+        border:none;
+        background-color:#fff;
+        overflow: hidden;
+        font-weight: bold;
+        transition: all .34s;
+        position: relative;
+        
+        &:nth-of-type(1){
+            background-color: #0077B5;
+        }
+        &:nth-of-type(2){
+            background-color: #3b5998;
+        }
+        &:nth-of-type(3){
+            background-color: #193266;
+        }
+        
+        &:nth-of-type(4){
+            background-color: $main-color;
+        }
+
+        &:hover{
+            transition: all .34s;
+            color:#fff;
+        }
+
+        .main{
+            position: absolute;
+            height:300px;
+            transition: all .35s;
+            width:100%;
+            top:0;
+            left:0;
+
+            i{
+                font-size: 30px;
+                margin-top:20px;
+                color:#fff;
+            }
+            h4{
+                text-align: center;
+                left:100px;
+                position: absolute;
+                top:60px;
+
+
+            }
+
+            &:hover{
+                top:-80%;
+                transition: all .35s;
+            }
+        }
+    }
+
+.footer{
+    background-color: #5A6F79 ;
+    padding:5% 0%;
+    position: relative;
+    color:#fff;
+    height:250px;
+    overflow: hidden;
+    width:100%;
+    font-weight: 400;
+    word-spacing: 0px;
+
+    .col-md-3{
+        position: relative;
+    }
+    .bg-primary{
+        position: absolute;
+        height: 300px;
+        right:0;
+        padding-right:0px !important;
+        top:-68px;
+        h3{
+            padding:20% 15% 0;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        h4{
+            padding:5% 0px;
+        }
+        .icon-footer{
+            margin-left:10px;
+            text-align: center;
+
+            i{
+                margin-left:5px;
+                margin-right:10px;
+            }
+        }
+    }
+
+    @media(max-width:720px){
+        .footer{
+            overflow: visible;
+            height:auto;
+            text-align: center;
+            position: static;
+        }
+        .bg-primary{
+            position: static;
+        }
+    }
+}
+
+
+}

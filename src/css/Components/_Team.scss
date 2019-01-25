@@ -1,0 +1,64 @@
+.Team {
+        padding-bottom:10% !important;
+        border-top:1px solid $border;
+
+    .content-team {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .item{
+        padding:0px 7%;
+    }
+
+    .main-team {
+        width:100%;
+        float: left;
+        margin-left:9vw;
+
+        .icon {
+            font-size: 20px;
+            display: inline;
+
+            i {
+                display: inline;
+                margin-left: 10px;
+                transition: all .4s;
+                cursor: pointer;
+                color: $main-color;
+
+                &:hover {
+                    color: $border;
+                    transition: all .4s;
+                }
+
+            }
+        }
+
+        .img-team {
+            text-align: center;
+
+
+            img {
+                border: 1px solid $border;
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+            }
+
+            h3 {
+                white-space: nowrap;
+                font-size: 19px;
+                font-weight: bold;
+            }
+
+            h4 {
+                font-weight: lighter;
+                font-size: 14px;
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,25 @@
+@mixin  btn($size) {
+    @if($size=='sm'){
+            width:100px;
+            margin-top:-10px;
+            border-radius: 5px;
+            height: 40px;
+            background-color: #4ac4f3;
+            color:#fff;
+            transition: 1s;
+            border:none;
+            outline: none;
+
+    }@else if($size=='md'){
+            height: 45px;
+            width:140px;
+            background-color: #4ac4f3;
+            color:#fff;
+            border-radius: 5px;
+            transition: 1s;
+            border:none;
+            outline: none;
+
+    }
+
+}
