@@ -26,9 +26,9 @@ const Home =(props)=>{
                 <NavDetailes/>
                 <Nav/>
                 <Main all={props.main}/>
+                <Process all={props.pro}/>
                 <Enverment/>
                 <Review all={props.review}/>
-                <Process all={props.pro}/>
                 <Involved main={props.involved}/>
                 <Aim all={props.aim}/>
                 <Course all={props.course}/>

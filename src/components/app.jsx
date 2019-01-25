@@ -417,14 +417,21 @@ class App extends Component {
             },
 
             Process:{
-                pros:[
-                    'Apply',
-                    'One Month Trail Session',
-                    'Interview & Test',
-                    'Admissions Decision',
-                    'Deposit'
-                ]
-            },
+                proc:[
+                {
+                title:'#1 Rated Coding Bootcamp in Pakistan',
+                icon:'fas fa-tools',
+                Dtls:'Learn full stack JavaScript & Python development and build fully functional web applications using the most relevant technologies and best-practice methodologies today. Our instructors are seasoned engineers and are extremely passionate about training the next generation of builders, and that starts with you.',
+            },{
+                title:'Learn More With Elective Workshops',
+                icon:'fas fa-mobile',
+                Dtls:`A career as a software engineer is a lifetime of learning, and we're here to help along the way. Students and alumni will have access to periodic continuing education workshops that cover complimentary technologies and skills like React Native, Java 101, Amazon Web Services, UI Design, Algorithms, and more.`,
+            },{
+                title:'Career Support & Employer Network',
+                icon:'fas fa-allergies',
+                Dtls:'Our students receive career guidance, feedback, participate in mock interviews, and gain access to our ever-growing list of companies and hiring partners. Our Student Services Team is here to ensure you have the best end-to-end experience possible, but come prepared to work hard in the classroom and the job hunt.',
+            }
+            ]},
 
             ourData:{
                 our:[

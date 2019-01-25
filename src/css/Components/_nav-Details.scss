@@ -11,14 +11,17 @@
         left:0;
         
         i{
-            box-sizing: border-box;
             margin:20px;
             
         }
         
         .btn{
             margin:10px 20px 0;
-            box-sizing: border-box;
+        }
+    }
+    @media(max-width:990px){
+        .stick{
+            display:none;
         }
     }
     

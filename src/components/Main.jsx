@@ -7,7 +7,7 @@ class Main extends Component {
         var resdo = this.props.all.Eventdate.map((v,i)=>{
             return(
                 
-            <div className="col-md-4 main-main-data">
+            <div className="col-md-4 main-main-data" key={i}>
                 <h5>{this.props.all.Eventdate[i]}</h5>
                 <h4>{this.props.all.EventDetails[i]}</h4>
                 <button className="btn btn-primary" >Attend Seminar</button>

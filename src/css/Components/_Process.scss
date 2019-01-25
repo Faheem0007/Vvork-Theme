@@ -1,5 +1,4 @@
 .main-proc{
-    height:100vh;
     position: relative;
     .proc {
         text-align: center;
@@ -9,6 +8,28 @@
     }
     .pd{
         padding:3% 0;
+    }
+
+    .dtls{
+        background-color: $main-color;
+        color:#fff;
+        padding:40px;
+
+        i{
+            font-size: 36px;
+        }
+
+        h3{
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+        
+    @media(max-width:990px){
+        .dtls{
+            margin-top:0 !important;
+        }
+    }
     }
     
     .proc-bg {
@@ -48,5 +69,12 @@
             transition: all .34s;
             color:#fff;
         }
+    }
+}
+
+
+@media(max-width:990px){
+    .main-proc{
+        margin-top:0 !important;
     }
 }

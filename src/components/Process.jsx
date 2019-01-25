@@ -2,27 +2,20 @@ import React from 'react';
 
 const Process = (props) => {
 
-    var pro = props.all.pros.map((v,i)=>{
+    var pro = props.all.proc.map((v,i)=>{
         return(
-             <div className="col-md-2" style={{marginTop:'50px',marginLeft:'20px'}}>
-                <h4>{props.all.pros[i]}</h4>
+             <div className="col-md-4 dtls" key={i}>
+                <i className={v.icon}></i>
+                <h3>{v.title}</h3>
+                <p>{v.Dtls}</p>
             </div>
         )
     })
-
     return (
         <div>
             <div className="container-fluid main-proc">
                 <div className="row">
-                    <div className="container-fluid proc">
-                        <div className="col-md-12">
-                            <div className="proc-content">
-                                <h2>Admission Process</h2>
-                                <p>The goal of admissions is to make sure you're ready for the challenges of the program, and that Vvork Cloud is the right fit for you. We look for motivation, how well you work with others, and perseverance.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-10 pd col-md-offset-2">
+                    <div className="col-md-12 nopadding">
                         {pro}
                     </div>
                     <div className="col-md-12 nopadding">  
@@ -33,9 +26,14 @@ const Process = (props) => {
                             </div>
                         </div>
                             <div className="col-md-12 nopadding">
-                                <button className="col-md-4">CURRICULUM</button>
-                                <button className="col-md-4">SCHEDULE A CALL</button>
-                                <button className="col-md-4">APPLY TODAY</button>
+                                <button className="col-md-4 hidden-sm hidden-xs">CURRICULUM</button>
+                                <button className="col-md-4 hidden-sm hidden-xs">SCHEDULE A CALL</button>
+                                <button className="col-md-4 hidden-sm hidden-xs">APPLY TODAY</button>
+
+                                
+                                <button className="col-md-4 btn-block hidden-lg hidden-md">CURRICULUM</button>
+                                <button className="col-md-4 btn-block hidden-lg hidden-md">SCHEDULE A CALL</button>
+                                <button className="col-md-4 btn-block hidden-lg hidden-md">APPLY TODAY</button>
                             </div>
                     </div>
                 </div>

@@ -4,21 +4,21 @@ const Footer = (props) => {
 
     var f1 = props.all.footerdata.map((v,i)=>{
         return (
-            <h4>{props.all.f1[i]}</h4>
+            <h4 key={i}>{props.all.f1[i]}</h4>
             
         )
     })
     
-    var footerdata = props.all.footerdata.map((v,i)=>{
+    var footerdata = props.all.footerdata.map((v,iN)=>{
         return (
-            <h4>{props.all.footerdata[i]}</h4>
+            <h4 key={iN}>{props.all.footerdata[iN]}</h4>
             
         )
     })
 
-    var f2 = props.all.footerdata.map((v,i)=>{
+    var f2 = props.all.footerdata.map((v,iNd)=>{
         return (
-            <h4>{props.all.f2[i]}</h4>
+            <h4  key={iNd}>{props.all.f2[iNd]}</h4>
             
         )
     })

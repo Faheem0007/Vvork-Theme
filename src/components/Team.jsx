@@ -4,7 +4,7 @@ const Team = (props) => {
 
     var fristslide =props.all.Name.map((v,i)=>{
         return(
-                <div className="col-md-3 col-sm-12 img-team">
+                <div className="col-md-3 col-sm-12 img-team" key={i}>
                     <img src={props.all.Img[i]} alt=""/>
                     <h3>{props.all.Name[i]}</h3>
                     <h4>{props.all.Post[i]}</h4>
@@ -19,12 +19,12 @@ const Team = (props) => {
     }) 
 
     
-    var slide2 =props.all.Name1.map((v,i)=>{
+    var slide2 =props.all.Name1.map((v,ind)=>{
         return(
-                <div className="col-md-3 img-team">
-                    <img src={props.all.Img1[i]} alt=""/>
-                    <h3>{props.all.Name1[i]}</h3>
-                    <h4>{props.all.Post1[i]}</h4>
+                <div className="col-md-3 img-team" key={ind}>
+                    <img src={props.all.Img1[ind]} alt=""/>
+                    <h3>{props.all.Name1[ind]}</h3>
+                    <h4>{props.all.Post1[ind]}</h4>
                     <div className="icon">
                         <i className="fab fa-facebook"></i>
                         <i className="fab fa-twitter"></i>

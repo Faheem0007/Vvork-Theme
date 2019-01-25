@@ -27,30 +27,30 @@ $(document).ready(()=>{
                             src="../images/logo.png"/>
                     </Link>
                 </div>
-                <ul class="nav navbar-nav gogo">
-                <li class="dropdown">
-                    <Link class="dropdown-toggle" data-toggle="dropdown" to="/">CODE BOOTCAMPS
-                    <span class="caret"></span></Link>
-                    <ul class="dropdown-menu">
+                <ul className="nav navbar-nav gogo">
+                <li className="dropdown">
+                    <Link className="dropdown-toggle" data-toggle="dropdown" to="/">CODE BOOTCAMPS
+                    <span className="caret"></span></Link>
+                    <ul className="dropdown-menu">
                         <li> <Link to="/"> IMMERSIVE</Link></li>
                         <li> <Link to="/"> FLEX (PART-TIME)</Link></li>
                     </ul>
                 </li>
 
 
-                <li class="dropdown">
-                    <Link class="dropdown-toggle" data-toggle="dropdown" to="/">SCHEDULE
-                    <span class="caret"></span></Link>
-                    <ul class="dropdown-menu">
+                <li className="dropdown">
+                    <Link className="dropdown-toggle" data-toggle="dropdown" to="/">SCHEDULE
+                    <span className="caret"></span></Link>
+                    <ul className="dropdown-menu">
                         <li> <Link to="/"> ATLANTA,</Link></li>
                         <li> <Link to="/">GAHOUSTON, TX</Link></li>
                     </ul>
                 </li>
                 
-                <li class="dropdown">
-                    <Link class="dropdown-toggle" data-toggle="dropdown" to="/">CODE BOOTCAMPS
-                    <span class="caret"></span></Link>
-                    <ul class="dropdown-menu">
+                <li className="dropdown">
+                    <Link className="dropdown-toggle" data-toggle="dropdown" to="/">CODE BOOTCAMPS
+                    <span className="caret"></span></Link>
+                    <ul className="dropdown-menu">
                         <li> <Link to="/"> TUITION</Link></li>
                         <li> <Link to="/"> PREPAREBLOG</Link></li>
                         <li> <Link to="/"> BOOTCAMP</Link></li>
@@ -60,10 +60,10 @@ $(document).ready(()=>{
                     </ul>
                 </li>
                 
-                <li class="dropdown">
-                    <Link class="dropdown-toggle" data-toggle="dropdown" to="/">CORPORATE SERVICES
-                    <span class="caret"></span></Link>
-                    <ul class="dropdown-menu">
+                <li className="dropdown">
+                    <Link className="dropdown-toggle" data-toggle="dropdown" to="/">CORPORATE SERVICES
+                    <span className="caret"></span></Link>
+                    <ul className="dropdown-menu">
                         <li> <Link to="/"> Hire Developer</Link></li>
                         <li> <Link to="/">Train your team</Link></li>
                     </ul>

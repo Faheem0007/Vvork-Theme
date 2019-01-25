@@ -3,7 +3,7 @@ import React from 'react';
 const OUR = (props) => {
     var propdata = props.all.our.map((v,i)=>{
         return (
-            <div className="col-md-2">
+            <div className="col-md-2" key={i}>
                 <h5>{props.all.our[i]}</h5>
             </div>
         )
